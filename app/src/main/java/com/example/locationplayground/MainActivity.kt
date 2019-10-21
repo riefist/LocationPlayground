@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    //dont do it in activity
     fun getAddress(){
         GlobalScope.launch(Dispatchers.Main){
             val address = fetchAddress()
